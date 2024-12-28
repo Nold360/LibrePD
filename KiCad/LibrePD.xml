@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/nold/Nextcloud/CAD/KiCAD/n64/OPEN-PD/OPEN-PD.kicad_sch</source>
+    <date>Thu Oct 19 19:06:11 2023</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LibrePD</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OPEN-PD.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF / 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65e6cc0e-44f2-408f-bf94-5ae8479ee14a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF / 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c6076ca-b8d0-40d3-9b2a-6db219d22469</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c4e2e39-86fa-4d80-93fc-f0e19b6a20f4</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67b3a726-73b3-4f00-91ed-58210050687f</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6374d16-e2f1-486c-b569-c546a91823bb</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB4110-GF-A</value>
+      <footprint>000-pretty_kicad_mods:USB4110-GF-A_GCT</footprint>
+      <datasheet>USB4110-GF-A</datasheet>
+      <libsource lib="2023-10-14_09-36-18" part="USB4110-GF-A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_keywords" value="USB4110-GF-A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a306d02-2923-4b00-a8ce-047fc11a4194</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>RQ3E120BNTB</value>
+      <footprint>symbols-footprints:RQ3E120BNTB</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq3e120bntb-e.pdf</datasheet>
+      <fields>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">RQ3E120BNTB</field>
+        <field name="Mouser Part Number">755-RQ3E120BNTB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RQ3E120BNTB?qs=npTsUczJOtOgZFizCumFqw%3D%3D</field>
+      </fields>
+      <libsource lib="RQ3E120BNTB" part="RQ3E120BNTB" description="MOSFET 4.5V Drive Nch MOSFET"/>
+      <property name="Height" value="0.95"/>
+      <property name="Manufacturer_Name" value="ROHM Semiconductor"/>
+      <property name="Manufacturer_Part_Number" value="RQ3E120BNTB"/>
+      <property name="Mouser Part Number" value="755-RQ3E120BNTB"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RQ3E120BNTB?qs=npTsUczJOtOgZFizCumFqw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="MOSFET 4.5V Drive Nch MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2ad4e95-b942-4ecc-828f-da0da5af8f90</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eb9045e-9d63-44b5-bba5-befb6a1b05ea</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de6e32a4-d1f2-470c-bd5f-e8668db7977f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9473857f-29f4-4907-933c-63746bd01c43</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>GND</value>
+      <footprint>000-nold-customs:CasPowerPad 2x2</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c80b552-d999-48e8-a3d7-d485773fe212</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>D-</value>
+      <footprint>000-nold-customs:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d03851fa-d069-4fab-9c81-ac02a20512bc</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>D+</value>
+      <footprint>000-nold-customs:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e4c0021-df7e-4882-8372-3386b74fd6fe</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>V</value>
+      <footprint>000-nold-customs:CasPowerPad 2x2</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9017534-9649-49f1-8b1f-2d70d1f83614</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>IP2721</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <libsource lib="nold_custom" part="IP2721" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OPEN-PD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c186b61a-d84d-45e5-85ea-9cffc5586be4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2023-10-14_09-36-18" part="USB4110-GF-A">
+      <docs>USB4110-GF-A</docs>
+      <footprints>
+        <fp>USB4110-GF-A_GCT</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB4110-GF-A</field>
+        <field name="Footprint">USB4110-GF-A_GCT</field>
+        <field name="Datasheet">USB4110-GF-A</field>
+      </fields>
+      <pins>
+        <pin num="A1-B12" name="GND" type="power_out"/>
+        <pin num="A4-B9" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="DP1" type="bidirectional"/>
+        <pin num="A7" name="DN1" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9-B4" name="VBUS" type="power_in"/>
+        <pin num="A12-B1" name="GND" type="power_out"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="DP2" type="bidirectional"/>
+        <pin num="B7" name="DN2" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="RQ3E120BNTB" part="RQ3E120BNTB">
+      <description>MOSFET 4.5V Drive Nch MOSFET</description>
+      <docs>https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq3e120bntb-e.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">RQ3E120BNTB</field>
+        <field name="Footprint">RQ3E120BNTB</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq3e120bntb-e.pdf</field>
+        <field name="Height">0.95</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">RQ3E120BNTB</field>
+        <field name="Mouser Part Number">755-RQ3E120BNTB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RQ3E120BNTB?qs=npTsUczJOtOgZFizCumFqw%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S_1" type="passive"/>
+        <pin num="2" name="S_2" type="passive"/>
+        <pin num="3" name="S_3" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D_1" type="passive"/>
+        <pin num="6" name="D_2" type="passive"/>
+        <pin num="7" name="D_3" type="passive"/>
+        <pin num="8" name="D_4" type="passive"/>
+        <pin num="9" name="D_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nold_custom" part="IP2721">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IP2721</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUSG" type="input"/>
+        <pin num="2" name="VIN" type="input"/>
+        <pin num="3" name="NC" type="input"/>
+        <pin num="4" name="NC" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="TST1" type="input"/>
+        <pin num="7" name="TST2" type="input"/>
+        <pin num="8" name="TST3" type="input"/>
+        <pin num="9" name="NC" type="input"/>
+        <pin num="10" name="NC" type="input"/>
+        <pin num="11" name="SEL" type="input"/>
+        <pin num="12" name="CC2" type="input"/>
+        <pin num="13" name="CC1" type="input"/>
+        <pin num="14" name="NC" type="input"/>
+        <pin num="15" name="NC" type="input"/>
+        <pin num="16" name="VBUS" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2023-10-14_09-36-18">
+      <uri>/home/nold/git/kicad-collection/symbols-footprints/2023-10-14_09-36-18.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/app/extensions/Library/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/app/extensions/Library/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/app/extensions/Library/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="RQ3E120BNTB">
+      <uri>/home/nold/git/kicad-collection/symbols-footprints/RQ3E120BNTB.kicad_sym</uri>
+    </library>
+    <library logical="nold_custom">
+      <uri>/home/nold/git/kicad-collection/nold_custom.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="CC1">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="CC1" pintype="input"/>
+    </net>
+    <net code="2" name="CC2">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="CC2" pintype="input"/>
+    </net>
+    <net code="3" name="D+">
+      <node ref="J1" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="D-">
+      <node ref="J1" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1-B12" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="A12-B1" pinfunction="GND" pintype="power_out"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(Q2-G)">
+      <node ref="Q2" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VBUSG" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(U1-SEL)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SEL" pintype="input"/>
+    </net>
+    <net code="8" name="VBUS">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="9" name="VIN">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4-B9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J1" pin="A9-B4" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="Q2" pin="5" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="D_4" pintype="passive"/>
+      <node ref="Q2" pin="9" pinfunction="D_5" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="10" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(U1-NC-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="input"/>
+    </net>
+    <net code="13" name="unconnected-(U1-NC-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(U1-NC-Pad9)">
+      <node ref="U1" pin="9" pinfunction="NC" pintype="input"/>
+    </net>
+    <net code="15" name="unconnected-(U1-NC-Pad10)">
+      <node ref="U1" pin="10" pinfunction="NC" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(U1-NC-Pad14)">
+      <node ref="U1" pin="14" pinfunction="NC" pintype="input"/>
+    </net>
+    <net code="17" name="unconnected-(U1-NC-Pad15)">
+      <node ref="U1" pin="15" pinfunction="NC" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(U1-TST1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="TST1" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(U1-TST2-Pad7)">
+      <node ref="U1" pin="7" pinfunction="TST2" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(U1-TST3-Pad8)">
+      <node ref="U1" pin="8" pinfunction="TST3" pintype="input"/>
+    </net>
+  </nets>
+</export>
